@@ -1,33 +1,47 @@
-# AmiHive Website Redesign 🚀
+# 🐝 AmiHive Website Redesign
 
-A modern, interactive website redesign for **AmiHive Software Solutions**, created as a website redesign project to deliver a clean user experience, engaging visuals, and responsive layouts.
+A modern, interactive, and responsive website redesign for **AmiHive Software Solutions**, featuring engaging animations, interactive 3D visuals, and a clean user interface.
 
-🌐 **Live Demo:** [View Website](https://lovely-sunflower-f776bd.netlify.app/)
+🌐 **Live Website:** [amihive-redesign.netlify.app](https://amihive-redesign.netlify.app/)
 
-## ✨ Features
+💻 **GitHub Repository:** [amihive-website](https://github.com/Ramya15-G/amihive-website)
 
-- Modern and responsive user interface
-- Interactive 3D technology globe in the hero section
-- Animated elements and engaging hover effects
-- Service cards with custom imagery and interactive styling
-- Dedicated pages for Home, About, Services, Projects, FAQ, and Contact
-- Contact form interface
-- Brand-inspired blue and orange color palette
-- Responsive layouts for different screen sizes
+---
+
+## 📌 About the Project
+
+The AmiHive Website Redesign project aims to create a modern and engaging digital experience for AmiHive Software Solutions.
+
+The redesign focuses on an attractive visual identity, interactive elements, smooth animations, and responsive layouts while maintaining the company's signature blue and orange branding.
+
+The project was developed as a website redesign assignment to demonstrate frontend development, UI/UX design, and modern web development skills.
+
+## ✨ Key Features
+
+- **Modern UI/UX:** Clean layouts and a contemporary visual design.
+- **Interactive 3D Hero Section:** Animated technology globe for an engaging first impression.
+- **Smooth Animations:** Interactive hover effects and visual transitions.
+- **Service Cards:** Custom imagery and interactive visual effects.
+- **Multiple Pages:** Home, About, Services, Projects, FAQ, and Contact.
+- **Contact Form Interface:** A dedicated section for user inquiries.
+- **Brand Consistency:** Blue and orange color palette inspired by AmiHive's branding.
+- **Responsive Layouts:** Designed to adapt to different screen sizes.
 
 ## 🛠️ Tech Stack
 
-- React
-- TypeScript
-- Vite
-- HTML5
-- CSS3
-- ESLint
+| Technology | Purpose |
+|---|---|
+| React | Building reusable UI components |
+| TypeScript | Type-safe application development |
+| Vite | Development server and production build |
+| HTML5 | Structuring web content |
+| CSS3 | Styling, animations, and responsive layouts |
+| ESLint | Code quality and linting |
 
 ## 📂 Project Structure
 
 ```text
-amihive-redesign/
+amihive-website/
 ├── public/
 │   ├── brand/
 │   └── images/
@@ -37,77 +51,92 @@ amihive-redesign/
 │   └── ...
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
 ├── vite.config.ts
+├── eslint.config.js
 └── README.md
 ```
 
-## 🚀 Getting Started
+## ⚙️ Getting Started
+
+Follow these steps to run the project locally.
 
 ### Prerequisites
 
-- Node.js
+Install the following tools:
+
+- [Node.js](https://nodejs.org/)
 - npm
-- Git
+- [Git](https://git-scm.com/)
 
-### Installation
+### 1. Clone the Repository
 
-1. Clone the repository:
+```bash
+git clone https://github.com/Ramya15-G/amihive-website.git
+```
 
-   ```bash
-   git clone https://github.com/Ramya15-G/amihive-website.git
-   ```
+### 2. Navigate to the Project Folder
 
-2. Navigate to the project directory:
+```bash
+cd amihive-website
+```
 
-   ```bash
-   cd amihive-website
-   ```
+### 3. Install Dependencies
 
-3. Install dependencies:
+```bash
+npm install
+```
 
-   ```bash
-   npm install
-   ```
+### 4. Start the Development Server
 
-4. Start the development server:
+```bash
+npm run dev
+```
 
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL displayed in your terminal.
+Open the local URL displayed in the terminal to view the website.
 
 ## 🏗️ Production Build
 
-To create a production build, run:
+To create an optimized production build, run:
 
 ```bash
 npm run build
 ```
 
-To preview the production build locally:
+To preview the production build locally, run:
 
 ```bash
 npm run preview
 ```
 
-## 🌍 Deployment
+## 🌍 Live Deployment
 
 The website is deployed using Netlify.
 
-**Live Website:** https://lovely-sunflower-f776bd.netlify.app/
+🔗 **Visit the Live Website:** [https://amihive-redesign.netlify.app/](https://amihive-redesign.netlify.app/)
 
-## 🎯 Project Objective
+## 🎯 Project Objectives
 
-The objective of this project is to redesign the AmiHive Software Solutions website with a modern visual identity, interactive user experiences, and a responsive layout while maintaining the company's core branding.
+- Create a modern and professional website experience.
+- Improve visual presentation and user engagement.
+- Explore interactive animations and 3D-inspired web elements.
+- Maintain consistent branding throughout the website.
+- Build a responsive interface using modern frontend technologies.
 
 ## 👩‍💻 Author
 
 **Ramya G**
 
-- GitHub: [Ramya15-G](https://github.com/Ramya15-G)
+- GitHub: [@Ramya15-G](https://github.com/Ramya15-G)
+- Project: [AmiHive Website Redesign](https://github.com/Ramya15-G/amihive-website)
+
+## 🙏 Acknowledgements
+
+Developed as a website redesign assignment for **AmiHive Software Solutions**.
 
 ---
 
-⭐ If you find this project interesting, feel free to explore the repository!
+⭐ Thank you for checking out this project!
