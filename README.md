@@ -1,75 +1,113 @@
-# React + TypeScript + Vite
+# AmiHive Website Redesign 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive website redesign for **AmiHive Software Solutions**, created as a website redesign project to deliver a clean user experience, engaging visuals, and responsive layouts.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [View Website](https://lovely-sunflower-f776bd.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Modern and responsive user interface
+- Interactive 3D technology globe in the hero section
+- Animated elements and engaging hover effects
+- Service cards with custom imagery and interactive styling
+- Dedicated pages for Home, About, Services, Projects, FAQ, and Contact
+- Contact form interface
+- Brand-inspired blue and orange color palette
+- Responsive layouts for different screen sizes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+- ESLint
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Project Structure
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+amihive-redesign/
+├── public/
+│   ├── brand/
+│   └── images/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── ...
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js
+- npm
+- Git
 
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ramya15-G/amihive-website.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd amihive-website
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 🏗️ Production Build
+
+To create a production build, run:
+
+```bash
+npm run build
 ```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🌍 Deployment
+
+The website is deployed using Netlify.
+
+**Live Website:** https://lovely-sunflower-f776bd.netlify.app/
+
+## 🎯 Project Objective
+
+The objective of this project is to redesign the AmiHive Software Solutions website with a modern visual identity, interactive user experiences, and a responsive layout while maintaining the company's core branding.
+
+## 👩‍💻 Author
+
+**Ramya G**
+
+- GitHub: [Ramya15-G](https://github.com/Ramya15-G)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
